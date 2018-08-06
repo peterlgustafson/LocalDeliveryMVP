@@ -7,9 +7,16 @@
 //
 
 import UIKit
+import Firebase
 
 class UserRegisterViewController: UIViewController {
-
+    
+    //Outlets for User Email and Password
+    
+    @IBOutlet weak var userEmailTextField: UITextField!
+    
+    @IBOutlet weak var userPasswordTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,6 +27,21 @@ class UserRegisterViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func userRegistrationButtonTapped(_ sender: Any) {
+        
+        Auth.auth().createUser(withEmail: userEmailTextField.text!, password: userPasswordTextField.text!) { (user, error) in
+            if error != nil {
+                print(error)
+            } else {
+                print("Registration successful!")
+                
+                self.performSegue(withIdentifier: "goToHomeFromUserRegistration", sender: self)
+            }
+        }
+        
+    }
+    
     
 
     /*

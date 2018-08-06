@@ -16,9 +16,12 @@
 		BD01FDCC21190C8B00C92F58 /* UserLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD01FDCB21190C8B00C92F58 /* UserLoginViewController.swift */; };
 		BD01FDCE21190CAF00C92F58 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD01FDCD21190CAF00C92F58 /* HomeScreenViewController.swift */; };
 		BD01FDD021190DF200C92F58 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD01FDCF21190DF200C92F58 /* GoogleService-Info.plist */; };
+		C93982168B5FD247096CE75D /* Pods_LocalDeliveryMVP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E210EEB94CEBD655C205AA /* Pods_LocalDeliveryMVP.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		92E210EEB94CEBD655C205AA /* Pods_LocalDeliveryMVP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocalDeliveryMVP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26DD59740C1A182F32607DF /* Pods-LocalDeliveryMVP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalDeliveryMVP.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocalDeliveryMVP/Pods-LocalDeliveryMVP.release.xcconfig"; sourceTree = "<group>"; };
 		BD01FDB4211906D700C92F58 /* LocalDeliveryMVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalDeliveryMVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD01FDB7211906D700C92F58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD01FDB9211906D700C92F58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -30,6 +33,7 @@
 		BD01FDCB21190C8B00C92F58 /* UserLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginViewController.swift; sourceTree = "<group>"; };
 		BD01FDCD21190CAF00C92F58 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
 		BD01FDCF21190DF200C92F58 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C250A79624FA72B248CB710F /* Pods-LocalDeliveryMVP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalDeliveryMVP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocalDeliveryMVP/Pods-LocalDeliveryMVP.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C93982168B5FD247096CE75D /* Pods_LocalDeliveryMVP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6BDC34C3ABD42F517C74AB1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92E210EEB94CEBD655C205AA /* Pods_LocalDeliveryMVP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A15BEA8C4B871083BB11A4BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C250A79624FA72B248CB710F /* Pods-LocalDeliveryMVP.debug.xcconfig */,
+				A26DD59740C1A182F32607DF /* Pods-LocalDeliveryMVP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BD01FDAB211906D700C92F58 = {
 			isa = PBXGroup;
 			children = (
 				BD01FDB6211906D700C92F58 /* LocalDeliveryMVP */,
 				BD01FDB5211906D700C92F58 /* Products */,
+				A15BEA8C4B871083BB11A4BE /* Pods */,
+				6BDC34C3ABD42F517C74AB1B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD01FDC6211906D900C92F58 /* Build configuration list for PBXNativeTarget "LocalDeliveryMVP" */;
 			buildPhases = (
+				4B2C9F9684074B17696ECBC7 /* [CP] Check Pods Manifest.lock */,
 				BD01FDB0211906D700C92F58 /* Sources */,
 				BD01FDB1211906D700C92F58 /* Frameworks */,
 				BD01FDB2211906D700C92F58 /* Resources */,
+				CC043BE283F902F31D2B404A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -142,6 +168,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B2C9F9684074B17696ECBC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LocalDeliveryMVP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC043BE283F902F31D2B404A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LocalDeliveryMVP/Pods-LocalDeliveryMVP-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocalDeliveryMVP/Pods-LocalDeliveryMVP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BD01FDB0211906D700C92F58 /* Sources */ = {
@@ -294,6 +367,7 @@
 		};
 		BD01FDC7211906D900C92F58 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C250A79624FA72B248CB710F /* Pods-LocalDeliveryMVP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -312,6 +386,7 @@
 		};
 		BD01FDC8211906D900C92F58 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A26DD59740C1A182F32607DF /* Pods-LocalDeliveryMVP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

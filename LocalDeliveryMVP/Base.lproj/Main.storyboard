@@ -154,6 +154,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="userRegistrationButtonTapped:" destination="ovX-Fm-sHb" eventType="touchUpInside" id="WSu-wV-74t"/>
                                     <segue destination="8ov-ZJ-Bdj" kind="show" identifier="goToHomeFromUserRegistration" id="8n6-Iy-1C4"/>
                                 </connections>
                             </button>
@@ -161,6 +162,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="j4Q-qV-fQw"/>
                     </view>
+                    <connections>
+                        <outlet property="userEmailTextField" destination="ixo-pm-ahh" id="jle-mq-wLL"/>
+                        <outlet property="userPasswordTextField" destination="l3g-mc-uqX" id="9gE-vU-fMx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c6d-Ek-dNG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
