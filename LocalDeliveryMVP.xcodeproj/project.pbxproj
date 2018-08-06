@@ -13,6 +13,8 @@
 		BD01FDBF211906D900C92F58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD01FDBE211906D900C92F58 /* Assets.xcassets */; };
 		BD01FDC2211906D900C92F58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD01FDC0211906D900C92F58 /* LaunchScreen.storyboard */; };
 		BD01FDCA2119098700C92F58 /* UserRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD01FDC92119098700C92F58 /* UserRegisterViewController.swift */; };
+		BD01FDCC21190C8B00C92F58 /* UserLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD01FDCB21190C8B00C92F58 /* UserLoginViewController.swift */; };
+		BD01FDCE21190CAF00C92F58 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD01FDCD21190CAF00C92F58 /* HomeScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BD01FDC1211906D900C92F58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD01FDC3211906D900C92F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD01FDC92119098700C92F58 /* UserRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegisterViewController.swift; sourceTree = "<group>"; };
+		BD01FDCB21190C8B00C92F58 /* UserLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginViewController.swift; sourceTree = "<group>"; };
+		BD01FDCD21190CAF00C92F58 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				BD01FDB7211906D700C92F58 /* AppDelegate.swift */,
 				BD01FDB9211906D700C92F58 /* ViewController.swift */,
 				BD01FDC92119098700C92F58 /* UserRegisterViewController.swift */,
+				BD01FDCB21190C8B00C92F58 /* UserLoginViewController.swift */,
+				BD01FDCD21190CAF00C92F58 /* HomeScreenViewController.swift */,
 				BD01FDBB211906D700C92F58 /* Main.storyboard */,
 				BD01FDBE211906D900C92F58 /* Assets.xcassets */,
 				BD01FDC0211906D900C92F58 /* LaunchScreen.storyboard */,
@@ -141,6 +147,8 @@
 				BD01FDCA2119098700C92F58 /* UserRegisterViewController.swift in Sources */,
 				BD01FDBA211906D700C92F58 /* ViewController.swift in Sources */,
 				BD01FDB8211906D700C92F58 /* AppDelegate.swift in Sources */,
+				BD01FDCC21190C8B00C92F58 /* UserLoginViewController.swift in Sources */,
+				BD01FDCE21190CAF00C92F58 /* HomeScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
