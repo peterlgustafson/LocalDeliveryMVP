@@ -15,6 +15,7 @@
 		BD01FDCA2119098700C92F58 /* UserRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD01FDC92119098700C92F58 /* UserRegisterViewController.swift */; };
 		BD01FDCC21190C8B00C92F58 /* UserLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD01FDCB21190C8B00C92F58 /* UserLoginViewController.swift */; };
 		BD01FDCE21190CAF00C92F58 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD01FDCD21190CAF00C92F58 /* HomeScreenViewController.swift */; };
+		BD01FDD021190DF200C92F58 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD01FDCF21190DF200C92F58 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		BD01FDC92119098700C92F58 /* UserRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegisterViewController.swift; sourceTree = "<group>"; };
 		BD01FDCB21190C8B00C92F58 /* UserLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLoginViewController.swift; sourceTree = "<group>"; };
 		BD01FDCD21190CAF00C92F58 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		BD01FDCF21190DF200C92F58 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				BD01FDBE211906D900C92F58 /* Assets.xcassets */,
 				BD01FDC0211906D900C92F58 /* LaunchScreen.storyboard */,
 				BD01FDC3211906D900C92F58 /* Info.plist */,
+				BD01FDCF21190DF200C92F58 /* GoogleService-Info.plist */,
 			);
 			path = LocalDeliveryMVP;
 			sourceTree = "<group>";
@@ -133,6 +136,7 @@
 			files = (
 				BD01FDC2211906D900C92F58 /* LaunchScreen.storyboard in Resources */,
 				BD01FDBF211906D900C92F58 /* Assets.xcassets in Resources */,
+				BD01FDD021190DF200C92F58 /* GoogleService-Info.plist in Resources */,
 				BD01FDBD211906D700C92F58 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
