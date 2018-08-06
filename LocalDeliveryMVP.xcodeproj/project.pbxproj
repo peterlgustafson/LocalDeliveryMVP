@@ -12,6 +12,7 @@
 		BD01FDBD211906D700C92F58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD01FDBB211906D700C92F58 /* Main.storyboard */; };
 		BD01FDBF211906D900C92F58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD01FDBE211906D900C92F58 /* Assets.xcassets */; };
 		BD01FDC2211906D900C92F58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD01FDC0211906D900C92F58 /* LaunchScreen.storyboard */; };
+		BD01FDCA2119098700C92F58 /* UserRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD01FDC92119098700C92F58 /* UserRegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BD01FDBE211906D900C92F58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD01FDC1211906D900C92F58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD01FDC3211906D900C92F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD01FDC92119098700C92F58 /* UserRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				BD01FDB7211906D700C92F58 /* AppDelegate.swift */,
 				BD01FDB9211906D700C92F58 /* ViewController.swift */,
+				BD01FDC92119098700C92F58 /* UserRegisterViewController.swift */,
 				BD01FDBB211906D700C92F58 /* Main.storyboard */,
 				BD01FDBE211906D900C92F58 /* Assets.xcassets */,
 				BD01FDC0211906D900C92F58 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD01FDCA2119098700C92F58 /* UserRegisterViewController.swift in Sources */,
 				BD01FDBA211906D700C92F58 /* ViewController.swift in Sources */,
 				BD01FDB8211906D700C92F58 /* AppDelegate.swift in Sources */,
 			);
