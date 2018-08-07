@@ -7,9 +7,16 @@
 //
 
 import UIKit
+import Firebase
 
 class UserLoginViewController: UIViewController {
-
+    
+    //IB Outlets for User Email and Password
+    
+    @IBOutlet weak var userEmailTextField: UITextField!
+    
+    @IBOutlet weak var userPasswordTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,7 +28,24 @@ class UserLoginViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    @IBAction func userLoginButtonPressed(_ sender: Any) {
+        
+        Auth.auth().signIn(withEmail: userEmailTextField.text!, password: userPasswordTextField.text!) { (user, error) in
+            
+            if error != nil {
+                print(error!)
+            } else {
+                print("User login successful!")
+                
+                self.performSegue(withIdentifier: "goToHomeFromUserLogin", sender: self)
+                
+            }
+            
+        }
+        
+    }
+    
+    
     /*
     // MARK: - Navigation
 

@@ -89,6 +89,10 @@
                                 <state key="normal" title="Login">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="userLoginButtonPressed:" destination="8eM-hJ-KdV" eventType="touchUpInside" id="CJO-1g-cyF"/>
+                                    <segue destination="8ov-ZJ-Bdj" kind="show" identifier="goToHomeFromUserLogin" id="enX-qt-xaM"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Login" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bSE-Nz-OgH">
                                 <rect key="frame" x="151" y="85" width="72" height="36"/>
@@ -102,6 +106,10 @@
                         <viewLayoutGuide key="safeArea" id="h7c-6z-fuE"/>
                     </view>
                     <navigationItem key="navigationItem" title="Login" id="7X6-1z-nFa"/>
+                    <connections>
+                        <outlet property="userEmailTextField" destination="2s5-Lc-2Wq" id="0zp-aq-TzV"/>
+                        <outlet property="userPasswordTextField" destination="9em-MJ-ZuY" id="Npc-4m-gLD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jHn-td-peD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -260,4 +268,7 @@
         <image name="Grant-Park-Farmers-Market (1)" width="1800" height="800"/>
         <image name="fmb" width="2016" height="1512"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="enX-qt-xaM"/>
+    </inferredMetricsTieBreakers>
 </document>
