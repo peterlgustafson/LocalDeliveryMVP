@@ -56,7 +56,7 @@
             </objects>
             <point key="canvasLocation" x="160.80000000000001" y="109.29535232383809"/>
         </scene>
-        <!--User Login View Controller-->
+        <!--Login-->
         <scene sceneID="Ewh-QA-YSf">
             <objects>
                 <viewController id="8eM-hJ-KdV" customClass="UserLoginViewController" customModule="LocalDeliveryMVP" customModuleProvider="target" sceneMemberID="viewController">
@@ -101,12 +101,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="h7c-6z-fuE"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Login" id="7X6-1z-nFa"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jHn-td-peD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="948" y="461.91904047976016"/>
         </scene>
-        <!--User Register View Controller-->
+        <!--Register-->
         <scene sceneID="77Y-dy-lN9">
             <objects>
                 <viewController id="ovX-Fm-sHb" customClass="UserRegisterViewController" customModule="LocalDeliveryMVP" customModuleProvider="target" sceneMemberID="viewController">
@@ -162,6 +163,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="j4Q-qV-fQw"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Register" id="cYg-C9-tVm"/>
                     <connections>
                         <outlet property="userEmailTextField" destination="ixo-pm-ahh" id="jle-mq-wLL"/>
                         <outlet property="userPasswordTextField" destination="l3g-mc-uqX" id="9gE-vU-fMx"/>
@@ -171,7 +173,7 @@
             </objects>
             <point key="canvasLocation" x="948" y="-232"/>
         </scene>
-        <!--Home Screen View Controller-->
+        <!--Home-->
         <scene sceneID="XIf-oF-7ng">
             <objects>
                 <viewController id="8ov-ZJ-Bdj" customClass="HomeScreenViewController" customModule="LocalDeliveryMVP" customModuleProvider="target" sceneMemberID="viewController">
@@ -221,6 +223,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="nPV-Jf-Xkl"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Home" id="JyB-va-vgj">
+                        <barButtonItem key="rightBarButtonItem" title="Log Out" id="fjZ-6i-4OD">
+                            <connections>
+                                <action selector="logOutButtonPressed:" destination="8ov-ZJ-Bdj" id="hU4-5b-7Wq"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f37-6G-Kcv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

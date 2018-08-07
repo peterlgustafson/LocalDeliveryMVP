@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class HomeScreenViewController: UIViewController {
 
@@ -19,6 +20,18 @@ class HomeScreenViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    @IBAction func logOutButtonPressed(_ sender: Any) {
+        
+        do {
+            try Auth.auth().signOut()
+            
+            navigationController?.popToRootViewController(animated: true)
+        } catch {
+            print("There was an error signing out.")
+        }
+        
     }
     
 
