@@ -20,6 +20,8 @@
 		BD7F87D6211A376900DDD41A /* BoxOfTheWeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7F87D5211A376900DDD41A /* BoxOfTheWeekViewController.swift */; };
 		BD7F87D8211A379200DDD41A /* ArugulaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7F87D7211A379200DDD41A /* ArugulaViewController.swift */; };
 		BD7F87DA211A37A900DDD41A /* ShoppingCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7F87D9211A37A900DDD41A /* ShoppingCartViewController.swift */; };
+		BD7F87DC211A78AB00DDD41A /* UserAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7F87DB211A78AB00DDD41A /* UserAddressViewController.swift */; };
+		BD7F87DE211A7C9700DDD41A /* AddPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7F87DD211A7C9700DDD41A /* AddPaymentViewController.swift */; };
 		C93982168B5FD247096CE75D /* Pods_LocalDeliveryMVP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E210EEB94CEBD655C205AA /* Pods_LocalDeliveryMVP.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +43,8 @@
 		BD7F87D5211A376900DDD41A /* BoxOfTheWeekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxOfTheWeekViewController.swift; sourceTree = "<group>"; };
 		BD7F87D7211A379200DDD41A /* ArugulaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArugulaViewController.swift; sourceTree = "<group>"; };
 		BD7F87D9211A37A900DDD41A /* ShoppingCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartViewController.swift; sourceTree = "<group>"; };
+		BD7F87DB211A78AB00DDD41A /* UserAddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAddressViewController.swift; sourceTree = "<group>"; };
+		BD7F87DD211A7C9700DDD41A /* AddPaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPaymentViewController.swift; sourceTree = "<group>"; };
 		C250A79624FA72B248CB710F /* Pods-LocalDeliveryMVP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalDeliveryMVP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocalDeliveryMVP/Pods-LocalDeliveryMVP.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,6 +107,8 @@
 				BD7F87D5211A376900DDD41A /* BoxOfTheWeekViewController.swift */,
 				BD7F87D7211A379200DDD41A /* ArugulaViewController.swift */,
 				BD7F87D9211A37A900DDD41A /* ShoppingCartViewController.swift */,
+				BD7F87DB211A78AB00DDD41A /* UserAddressViewController.swift */,
+				BD7F87DD211A7C9700DDD41A /* AddPaymentViewController.swift */,
 				BD01FDBB211906D700C92F58 /* Main.storyboard */,
 				BD01FDBE211906D900C92F58 /* Assets.xcassets */,
 				BD01FDC0211906D900C92F58 /* LaunchScreen.storyboard */,
@@ -234,11 +240,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD01FDCA2119098700C92F58 /* UserRegisterViewController.swift in Sources */,
+				BD7F87DE211A7C9700DDD41A /* AddPaymentViewController.swift in Sources */,
 				BD01FDBA211906D700C92F58 /* ViewController.swift in Sources */,
 				BD7F87DA211A37A900DDD41A /* ShoppingCartViewController.swift in Sources */,
 				BD01FDB8211906D700C92F58 /* AppDelegate.swift in Sources */,
 				BD7F87D6211A376900DDD41A /* BoxOfTheWeekViewController.swift in Sources */,
 				BD01FDCC21190C8B00C92F58 /* UserLoginViewController.swift in Sources */,
+				BD7F87DC211A78AB00DDD41A /* UserAddressViewController.swift in Sources */,
 				BD7F87D4211A374300DDD41A /* MeetTheFarmersViewController.swift in Sources */,
 				BD7F87D8211A379200DDD41A /* ArugulaViewController.swift in Sources */,
 				BD01FDCE21190CAF00C92F58 /* HomeScreenViewController.swift in Sources */,
