@@ -50,7 +50,6 @@ class UserLoginViewController: UIViewController {
         
     }
     
-    
     /*
     // MARK: - Navigation
 

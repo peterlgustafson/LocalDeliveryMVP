@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SafariServices
 
 class MeetTheFarmersViewController: UIViewController {
 
@@ -20,6 +21,17 @@ class MeetTheFarmersViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func learnMoreButtonTapped(_ sender: Any) {
+        
+        if let url = URL(string: "https://www.youtube.com/watch?v=0NG7DAqggBw") {
+        let safariViewController = SFSafariViewController(url:
+            url)
+        present(safariViewController, animated: true,
+                completion: nil)
+    }
+}
+    
     
 
     /*
