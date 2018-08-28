@@ -7,4 +7,4 @@ The App:
 
 Description: Users can login to the app each week to see what's available in their area and simply place an order for the "box of the week" based on what's fresh & in season or pick out individual items. Their orders will be delivered to their door on a weekly basis. 
 
-Technologies Used: Interface Builder, Foundation & UIKIt, CoreLocation, Swift, Xcode, Firebase User Authentication.
+Technologies Used: Interface Builder, Foundation & UIKIt, Core Location, Swift, Xcode, Firebase User Authentication.
