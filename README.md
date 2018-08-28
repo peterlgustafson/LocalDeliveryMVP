@@ -1,4 +1,4 @@
-# LocalDeliveryMVP
+# LocalDelivery
 About: A hyperlocal marketplace that connects local farmers directly to consumers via a consumer facing iOS app. 
 
 The App: 
